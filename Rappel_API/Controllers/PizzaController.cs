@@ -16,6 +16,8 @@ namespace Rappel_API.Controllers
             _PizzaService = pizzaService;
         }
 
+        [HttpGet]
+        [Route("/")]
         public IActionResult GetAll()
         {
             // TODO Add DTO + Mapper
